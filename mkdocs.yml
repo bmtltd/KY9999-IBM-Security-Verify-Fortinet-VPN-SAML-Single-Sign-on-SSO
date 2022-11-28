@@ -1,4 +1,4 @@
-site_name: IBM Security Verify Fortinet VPN SAML Single Sign-on (SSO).
+site_name: IBM Security Verify Fortinet VPN SAML Single Sign-on (SSO)
 theme:
   name: material
   logo: assets/bmt.png
