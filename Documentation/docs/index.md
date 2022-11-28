@@ -16,6 +16,10 @@ Before you configure the FortiGate SSL VPN web interface for SSO, make sure you 
 - FortiGate Fully-qualified domain: https://vpn. [your-domain-name].com
 - You have created a FortiGate admin and users for SSO
 
+## Why use SAML authentication?
+
+Our blog post coverts this in greater detail ([click here](https://www.bmt.ky)), but just to summarise, using SAML-based authentication with your VPN is going to give you greater access to your conditional-access policies offered by your Single Sign-on provider.
+
 ## Simple example to get you started
 Remember, this is meant to be simple authentication/authorisation example just to get you started. We're assuming you have already configured things like your Fortinet SSL certificate and your access-control policies. In fact, we're assuming you already have your VPN configured using either local authentication, LDAP or RADIUS authentication. Our goal is to simply add SAML as an additional option.
 
